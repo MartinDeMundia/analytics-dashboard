@@ -11,7 +11,7 @@ import {
 } from '@apollo/client';
 
 const httpLink = createHttpLink({
-  uri: 'http://192.168.100.16:4000', 
+  uri: 'https://fortunate-weak-drizzle.glitch.me/', 
 })
 const AUTH_TOKEN = 'auth-token'
 const authLink = setContext((_, { headers }) => {
